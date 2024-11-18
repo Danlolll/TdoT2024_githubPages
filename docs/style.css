@@ -1,0 +1,58 @@
+/* Für den gesamten Text */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaf1ea !important; /* Helles Grün */
+    color: #2ecc71 !important; /* Grüner Text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Für alle Überschriften (h1, h2) */
+h1, h2 {
+    color: #27ae60 !important; /* Dunkelgrün */
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Für Links */
+a {
+    color: #2ecc71 !important; /* Grün */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #27ae60 !important; /* Dunkelgrün, wenn der Link überfahren wird */
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #2ecc71 !important; /* Grüner Text im Footer */
+}
+
+footer a {
+    color: #3498db !important; /* Blau für Links im Footer */
+    font-weight: normal;
+}
+
+footer a:hover {
+    color: #2C3E50 !important; /* Dunkles Blau */
+}
+
+/* Zurück-Buttons */
+.back-button {
+    color: #ffffff;
+    background-color: #2ecc71 !important; /* Grüner Hintergrund */
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #27ae60 !important; /* Dunkelgrün beim Hover */
+}
